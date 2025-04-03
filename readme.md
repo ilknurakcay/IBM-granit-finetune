@@ -2,15 +2,14 @@
 
 Bu proje, **ibm-granite/granite-vision-3.2-2b** modelini **google/wit** veri setinin bir kısmıyla fine-tune etmek için hazırlanmıştır. GPU olmadığı için eğitim süreci sınırlı tutulmuştur.
 
-## Kullanılan Teknolojiler
+## Technical Stack
 
-- Hugging Face **Transformers**
-- **TRL (Transformer Reinforcement Learning)**
-- **Datasets**
-- **BitsAndBytes** (Kuantizasyon için)
+
+- **Base Model: IBM Granite Vision 3.2-2B**
+- **Dataset: Google Web Image Text (WIT) - Türkçe Alt Kümesi**
+- **Fine-Tuning Method: Supervised Fine-Tuning (SFT) with LoRA**
+- **Quantization: 4-bit Quantization (QLoRA)**
 - **PEFT** (Parameter Efficient Fine-Tuning)
-- **Accelerate**
-- **Pandas, NLTK, Requests, PIL**
 
 ## Kurulum
 
